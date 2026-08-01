@@ -1,7 +1,24 @@
 aid: rentify
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rentify.png
 name: rentify
-description: rentify is a company surfaced as a portfolio company of balderton-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Rentify was a London-based property technology (PropTech) startup founded in 2011 that built
+  an online lettings and property-management platform for landlords, letting them list, market, price,
+  and manage rental properties directly without a traditional high-street agent. It raised a Series A
+  from Balderton Capital and later a crowdfunding round before ceasing operations. Surfaced as a
+  balderton-capital portfolio company and added to the API Evangelist network for enrichment; the
+  enrichment pass found no live developer portal, documentation, or public API surface (the company is
+  no longer operating and rentify.com no longer serves an application).
 url: https://raw.githubusercontent.com/api-evangelist/rentify/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- PropTech
+- Real Estate
+- Property Management
+- Lettings
+- Rental
+- United Kingdom
+x-status: defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rentify-domain-security.yml
 - type: Website
   url: https://www.rentify.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
