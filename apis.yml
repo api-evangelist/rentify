@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - PropTech
@@ -48,6 +48,7 @@ tags:
 - Lettings
 - Rentals
 - United Kingdom
+- Defunct
 tags_raw:
 - Company
 - PropTech
@@ -56,6 +57,7 @@ tags_raw:
 - Lettings
 - Rental
 - United Kingdom
+- Defunct
 x-status: defunct
 apis: []
 maintainers:
