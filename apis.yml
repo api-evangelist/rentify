@@ -43,7 +43,7 @@ modified: '2026-09-16'
 tags:
 - Company
 - PropTech
-- Real-Estate
+- Real Estate
 - Property Management
 - Lettings
 - Rentals
@@ -58,6 +58,7 @@ tags_raw:
 - Rental
 - United Kingdom
 - Defunct
+- Real-Estate
 x-status: defunct
 apis: []
 maintainers:
